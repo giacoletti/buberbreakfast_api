@@ -1,18 +1,21 @@
 # Buber Breakfast API
 
-- [Buber Breakfast API](#buber-breakfast-api)
-  - [Create Breakfast](#create-breakfast)
-    - [Create Breakfast Request](#create-breakfast-request)
-    - [Create Breakfast Response](#create-breakfast-response)
-  - [Get Breakfast](#get-breakfast)
-    - [Get Breakfast Request](#get-breakfast-request)
-    - [Get Breakfast Response](#get-breakfast-response)
-  - [Update Breakfast](#update-breakfast)
-    - [Update Breakfast Request](#update-breakfast-request)
-    - [Update Breakfast Response](#update-breakfast-response)
-  - [Delete Breakfast](#delete-breakfast)
-    - [Delete Breakfast Request](#delete-breakfast-request)
-    - [Delete Breakfast Response](#delete-breakfast-response)
+REST API built in .NET 6
+
+---
+
+- [Create Breakfast](#create-breakfast)
+  - [Create Breakfast Request](#create-breakfast-request)
+  - [Create Breakfast Response](#create-breakfast-response)
+- [Get Breakfast](#get-breakfast)
+  - [Get Breakfast Request](#get-breakfast-request)
+  - [Get Breakfast Response](#get-breakfast-response)
+- [Update Breakfast](#update-breakfast)
+  - [Update Breakfast Request](#update-breakfast-request)
+  - [Update Breakfast Response](#update-breakfast-response)
+- [Delete Breakfast](#delete-breakfast)
+  - [Delete Breakfast Request](#delete-breakfast-request)
+  - [Delete Breakfast Response](#delete-breakfast-response)
 
 ## Create Breakfast
 
@@ -159,3 +162,13 @@ DELETE /breakfasts/{{id}}
 ```js
 204 No Content
 ```
+
+---
+
+## Acknowledgments
+
+- [Amichai Mantinband](https://github.com/amantinband)
+
+## License
+
+The software is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
